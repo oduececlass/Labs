@@ -1,0 +1,88 @@
+WEBVTT
+
+00:00:00.450 --> 00:00:02.093
+Welcome to Circuit Studio.
+
+00:00:02.293 --> 00:00:04.597
+This is the actual workspace students use.
+
+00:00:04.797 --> 00:00:08.338
+The top bar opens Design labs, Simulate, and Breadboard.
+
+00:00:08.538 --> 00:00:12.015
+Start with a few controls; you can explore the other tools later.
+
+00:00:12.915 --> 00:00:16.542
+Open Parts, choose a component, and click the canvas to place it.
+
+00:00:16.742 --> 00:00:21.734
+This simple resistor example shows the same controls used for transistor circuits.
+
+00:00:21.934 --> 00:00:24.750
+Press Escape when you finish placing that type of part.
+
+00:00:25.650 --> 00:00:27.506
+Use Select to move a component.
+
+00:00:27.706 --> 00:00:31.973
+A selected part can be rotated with the Rotate button or the R key.
+
+00:00:32.173 --> 00:00:37.122
+Click its value in the Edit panel, or double-click its value on the drawing, to change it.
+
+00:00:38.022 --> 00:00:39.921
+Choose Wire, or press W.
+
+00:00:40.121 --> 00:00:45.390
+Click the first pin, click empty space for bends, and click the destination pin to finish.
+
+00:00:45.590 --> 00:00:47.254
+Connect to terminals carefully.
+
+00:00:47.454 --> 00:00:51.422
+A crossing without a junction dot is not automatically a connection.
+
+00:00:52.322 --> 00:00:56.567
+For the assigned labs, choose Design labs and select CS or CE.
+
+00:00:56.767 --> 00:01:01.333
+The current Core uses three stages: Design and Build, Measure, and Submit.
+
+00:01:01.533 --> 00:01:06.503
+Read the reference diagram and choose your component values before starting the schematic.
+
+00:01:07.403 --> 00:01:11.051
+Build my schematic provides the required parts without wires.
+
+00:01:11.251 --> 00:01:13.726
+Connect them yourself using the lab reference.
+
+00:01:13.926 --> 00:01:15.910
+Reopen Lab reference while working.
+
+00:01:16.110 --> 00:01:21.315
+If you later change a worksheet value, also edit the corresponding component on your schematic.
+
+00:01:22.215 --> 00:01:25.479
+Simulate measures the circuit connected on the schematic.
+
+00:01:25.679 --> 00:01:29.967
+Breadboard lets you assemble a physical-style version with parts and jumpers.
+
+00:01:30.167 --> 00:01:34.306
+Finish the schematic connections before moving to breadboard construction.
+
+00:01:34.506 --> 00:01:37.621
+Return to your lab when you are ready to record evidence.
+
+00:01:38.521 --> 00:01:42.233
+Use File, then Save as, for an editable circuit project.
+
+00:01:42.433 --> 00:01:45.611
+Use Save progress for a portable backup of your lab work.
+
+00:01:45.811 --> 00:01:47.433
+Save both before closing.
+
+00:01:47.633 --> 00:01:53.115
+In Submit, download the report and circuit, then upload the required files to your class site.

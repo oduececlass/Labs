@@ -1,0 +1,107 @@
+WEBVTT
+
+00:00:00.450 --> 00:00:04.717
+This guide covers the new reset and saving controls in Circuit Studio.
+
+00:00:04.917 --> 00:00:08.522
+The same controls work for both CS and CE labs.
+
+00:00:08.722 --> 00:00:13.266
+You will learn how to restart a circuit, recover it, and save evidence of your work.
+
+00:00:14.166 --> 00:00:18.262
+In your lab, choose Reset circuit in the footer or the workspace toolbar.
+
+00:00:18.462 --> 00:00:23.497
+It restores the initial unwired parts, their positions, and their starting values.
+
+00:00:23.697 --> 00:00:26.961
+The current breadboard assembly is cleared so you can rebuild.
+
+00:00:27.161 --> 00:00:28.825
+Your report notes stay saved.
+
+00:00:29.725 --> 00:00:33.543
+If you want the circuit you had before resetting, choose Undo reset.
+
+00:00:33.743 --> 00:00:36.709
+This restores that circuit and its saved breadboard.
+
+00:00:36.909 --> 00:00:39.597
+Reset and undo apply to the selected lab.
+
+00:00:39.797 --> 00:00:42.591
+Your CS and CE work are kept separately.
+
+00:00:43.491 --> 00:00:49.294
+For a file you can reopen and edit, choose Save views, then Save editable project JSON.
+
+00:00:49.494 --> 00:00:51.734
+You can also use File, then Save As.
+
+00:00:51.934 --> 00:00:58.462
+A saved image or document is evidence of the view; the project file preserves the editable design.
+
+00:00:59.362 --> 00:01:01.645
+In Save views, choose Circuit schematic.
+
+00:01:01.845 --> 00:01:04.213
+Save PNG image creates a picture.
+
+00:01:04.413 --> 00:01:11.154
+Save PDF creates a PDF file, and Save Word creates a Word document containing the captured
+view.
+
+00:01:11.354 --> 00:01:13.914
+Choose the format required for your assignment.
+
+00:01:14.814 --> 00:01:19.422
+Before saving simulation evidence, press Run and wait for the current results.
+
+00:01:19.622 --> 00:01:22.673
+In Save views, choose Simulation display and settings.
+
+00:01:22.873 --> 00:01:26.563
+The export includes the displayed result and instrument settings.
+
+00:01:26.763 --> 00:01:30.561
+If results are out of date, run the simulation again before saving.
+
+00:01:31.461 --> 00:01:34.767
+Open the breadboard workspace before saving its assembly.
+
+00:01:34.967 --> 00:01:37.805
+Choose Save views, then Breadboard and instruments.
+
+00:01:38.005 --> 00:01:41.077
+Save the image, PDF, or Word file you need.
+
+00:01:41.277 --> 00:01:46.269
+The export reflects the parts, jumpers, instruments, and power state currently shown.
+
+00:01:46.469 --> 00:01:48.709
+Use your own construction as evidence.
+
+00:01:49.609 --> 00:01:53.022
+Choose All available views to combine the views that are ready.
+
+00:01:53.222 --> 00:01:57.105
+PDF and Word place each included view on its own page.
+
+00:01:57.305 --> 00:02:01.379
+The PNG option combines the included views into one image.
+
+00:02:01.579 --> 00:02:04.481
+Read the save status to see which views were included.
+
+00:02:05.381 --> 00:02:10.735
+Open your saved files and check that the labels, scales, and input settings are readable.
+
+00:02:10.935 --> 00:02:14.669
+Keep the editable project and a Save progress backup as well.
+
+00:02:14.869 --> 00:02:20.849
+Upload your required evidence and report through the class site, with separate CS and CE
+
+00:02:20.849 --> 00:02:21.247
+submissions.

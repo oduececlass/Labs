@@ -1,0 +1,471 @@
+{
+  "format": "circuit-studio",
+  "version": 1,
+  "name": "CS tutorial teaching example",
+  "settings": {
+    "wireJumps": true,
+    "resistorStyle": "ansi"
+  },
+  "components": [
+    {
+      "id": "M1",
+      "type": "nmos",
+      "x": 680,
+      "y": 400,
+      "ref": "M_1",
+      "value": "ZVN3310F",
+      "rotation": 0,
+      "mirror": false,
+      "label": {
+        "dx": 0,
+        "dy": 0
+      },
+      "deviceModel": {
+        "vth": 1.5,
+        "kn": 2,
+        "lambda": 0
+      }
+    },
+    {
+      "id": "VDD",
+      "type": "voltage",
+      "x": 1020,
+      "y": 220,
+      "ref": "V_{DD}",
+      "value": "15 V",
+      "rotation": 0,
+      "mirror": false,
+      "label": {
+        "dx": 0,
+        "dy": 0
+      }
+    },
+    {
+      "id": "gdd",
+      "type": "ground",
+      "x": 1020,
+      "y": 320,
+      "ref": "G",
+      "value": "",
+      "rotation": 0,
+      "mirror": false,
+      "label": {
+        "dx": 0,
+        "dy": 0
+      }
+    },
+    {
+      "id": "VSS",
+      "type": "voltage",
+      "x": 1020,
+      "y": 640,
+      "ref": "V_{SS}",
+      "value": "-15 V",
+      "rotation": 0,
+      "mirror": false,
+      "label": {
+        "dx": 0,
+        "dy": 0
+      }
+    },
+    {
+      "id": "gss",
+      "type": "ground",
+      "x": 1020,
+      "y": 760,
+      "ref": "G",
+      "value": "",
+      "rotation": 0,
+      "mirror": false,
+      "label": {
+        "dx": 0,
+        "dy": 0
+      }
+    },
+    {
+      "id": "RD",
+      "type": "resistor",
+      "x": 700,
+      "y": 220,
+      "ref": "R_D",
+      "value": "10 kΩ",
+      "rotation": 90,
+      "mirror": false,
+      "label": {
+        "dx": 0,
+        "dy": 0
+      }
+    },
+    {
+      "id": "RS",
+      "type": "resistor",
+      "x": 700,
+      "y": 580,
+      "ref": "R_S",
+      "value": "12 kΩ",
+      "rotation": 90,
+      "mirror": false,
+      "label": {
+        "dx": 0,
+        "dy": 0
+      }
+    },
+    {
+      "id": "CB",
+      "type": "polarized",
+      "x": 880,
+      "y": 580,
+      "ref": "C_{S}",
+      "value": "100 μF",
+      "rotation": 270,
+      "mirror": false,
+      "label": {
+        "dx": 0,
+        "dy": 0
+      }
+    },
+    {
+      "id": "gc",
+      "type": "ground",
+      "x": 880,
+      "y": 720,
+      "ref": "G",
+      "value": "",
+      "rotation": 0,
+      "mirror": false,
+      "label": {
+        "dx": 0,
+        "dy": 0
+      }
+    },
+    {
+      "id": "VIN",
+      "type": "acvoltage",
+      "x": 220,
+      "y": 540,
+      "ref": "v_{in}",
+      "value": "100 mV",
+      "rotation": 0,
+      "mirror": false,
+      "label": {
+        "dx": 0,
+        "dy": 0
+      }
+    },
+    {
+      "id": "gin",
+      "type": "ground",
+      "x": 220,
+      "y": 720,
+      "ref": "G",
+      "value": "",
+      "rotation": 0,
+      "mirror": false,
+      "label": {
+        "dx": 0,
+        "dy": 0
+      }
+    },
+    {
+      "id": "nd",
+      "type": "netlabel",
+      "x": 820,
+      "y": 320,
+      "ref": "Nnd",
+      "value": "VD",
+      "rotation": 0,
+      "mirror": false,
+      "label": {
+        "dx": 0,
+        "dy": 0
+      }
+    },
+    {
+      "id": "ns",
+      "type": "netlabel",
+      "x": 540,
+      "y": 460,
+      "ref": "Nns",
+      "value": "VS",
+      "rotation": 0,
+      "mirror": false,
+      "label": {
+        "dx": 0,
+        "dy": 0
+      }
+    },
+    {
+      "id": "ng",
+      "type": "netlabel",
+      "x": 400,
+      "y": 400,
+      "ref": "Nng",
+      "value": "VIN",
+      "rotation": 0,
+      "mirror": false,
+      "label": {
+        "dx": 0,
+        "dy": 0
+      }
+    }
+  ],
+  "junctions": [
+    {
+      "id": "supply",
+      "x": 700,
+      "y": 100
+    },
+    {
+      "id": "drain",
+      "x": 700,
+      "y": 320
+    },
+    {
+      "id": "source",
+      "x": 700,
+      "y": 460
+    },
+    {
+      "id": "gate",
+      "x": 400,
+      "y": 400
+    },
+    {
+      "id": "negative",
+      "x": 700,
+      "y": 720
+    }
+  ],
+  "wires": [
+    {
+      "id": "w1",
+      "a": {
+        "c": "VDD",
+        "p": 0
+      },
+      "b": {
+        "j": "supply"
+      },
+      "vias": [
+        {
+          "x": 1020,
+          "y": 100
+        }
+      ]
+    },
+    {
+      "id": "w2",
+      "a": {
+        "c": "VDD",
+        "p": 1
+      },
+      "b": {
+        "c": "gdd",
+        "p": 0
+      },
+      "vias": []
+    },
+    {
+      "id": "w3",
+      "a": {
+        "c": "VSS",
+        "p": 0
+      },
+      "b": {
+        "j": "negative"
+      },
+      "vias": [
+        {
+          "x": 1020,
+          "y": 560
+        },
+        {
+          "x": 1140,
+          "y": 560
+        },
+        {
+          "x": 1140,
+          "y": 720
+        }
+      ]
+    },
+    {
+      "id": "w4",
+      "a": {
+        "c": "VSS",
+        "p": 1
+      },
+      "b": {
+        "c": "gss",
+        "p": 0
+      },
+      "vias": []
+    },
+    {
+      "id": "w5",
+      "a": {
+        "j": "supply"
+      },
+      "b": {
+        "c": "RD",
+        "p": 0
+      },
+      "vias": []
+    },
+    {
+      "id": "w6",
+      "a": {
+        "c": "RD",
+        "p": 1
+      },
+      "b": {
+        "j": "drain"
+      },
+      "vias": []
+    },
+    {
+      "id": "w7",
+      "a": {
+        "j": "drain"
+      },
+      "b": {
+        "c": "M1",
+        "p": 1
+      },
+      "vias": []
+    },
+    {
+      "id": "w8",
+      "a": {
+        "j": "source"
+      },
+      "b": {
+        "c": "M1",
+        "p": 2
+      },
+      "vias": []
+    },
+    {
+      "id": "w9",
+      "a": {
+        "j": "source"
+      },
+      "b": {
+        "c": "RS",
+        "p": 0
+      },
+      "vias": []
+    },
+    {
+      "id": "w10",
+      "a": {
+        "c": "RS",
+        "p": 1
+      },
+      "b": {
+        "j": "negative"
+      },
+      "vias": []
+    },
+    {
+      "id": "w11",
+      "a": {
+        "j": "source"
+      },
+      "b": {
+        "c": "CB",
+        "p": 1
+      },
+      "vias": [
+        {
+          "x": 880,
+          "y": 460
+        }
+      ]
+    },
+    {
+      "id": "w12",
+      "a": {
+        "c": "CB",
+        "p": 0
+      },
+      "b": {
+        "c": "gc",
+        "p": 0
+      },
+      "vias": []
+    },
+    {
+      "id": "w13",
+      "a": {
+        "c": "VIN",
+        "p": 0
+      },
+      "b": {
+        "j": "gate"
+      },
+      "vias": [
+        {
+          "x": 220,
+          "y": 400
+        }
+      ]
+    },
+    {
+      "id": "w14",
+      "a": {
+        "j": "gate"
+      },
+      "b": {
+        "c": "M1",
+        "p": 0
+      },
+      "vias": []
+    },
+    {
+      "id": "w15",
+      "a": {
+        "c": "VIN",
+        "p": 1
+      },
+      "b": {
+        "c": "gin",
+        "p": 0
+      },
+      "vias": []
+    },
+    {
+      "id": "w16",
+      "a": {
+        "c": "nd",
+        "p": 0
+      },
+      "b": {
+        "j": "drain"
+      },
+      "vias": []
+    },
+    {
+      "id": "w17",
+      "a": {
+        "c": "ns",
+        "p": 0
+      },
+      "b": {
+        "j": "source"
+      },
+      "vias": []
+    },
+    {
+      "id": "w18",
+      "a": {
+        "c": "ng",
+        "p": 0
+      },
+      "b": {
+        "j": "gate"
+      },
+      "vias": []
+    }
+  ]
+}

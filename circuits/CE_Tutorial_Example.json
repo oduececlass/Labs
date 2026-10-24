@@ -1,0 +1,602 @@
+{
+  "format": "circuit-studio",
+  "version": 1,
+  "name": "CE tutorial teaching example",
+  "settings": {
+    "wireJumps": true,
+    "resistorStyle": "ansi"
+  },
+  "components": [
+    {
+      "id": "Q1",
+      "type": "npn",
+      "x": 700,
+      "y": 380,
+      "ref": "Q_1",
+      "value": "2N3904",
+      "rotation": 0,
+      "mirror": false,
+      "label": {
+        "dx": 0,
+        "dy": 0
+      },
+      "deviceModel": {
+        "beta": 100,
+        "isFA": 1,
+        "vt": 25.85
+      }
+    },
+    {
+      "id": "VCC",
+      "type": "voltage",
+      "x": 1080,
+      "y": 200,
+      "ref": "V_{CC}",
+      "value": "15 V",
+      "rotation": 0,
+      "mirror": false,
+      "label": {
+        "dx": 0,
+        "dy": 0
+      }
+    },
+    {
+      "id": "gvcc",
+      "type": "ground",
+      "x": 1080,
+      "y": 300,
+      "ref": "G",
+      "value": "",
+      "rotation": 0,
+      "mirror": false,
+      "label": {
+        "dx": 0,
+        "dy": 0
+      }
+    },
+    {
+      "id": "R1",
+      "type": "resistor",
+      "x": 480,
+      "y": 220,
+      "ref": "R_1",
+      "value": "47 kΩ",
+      "rotation": 90,
+      "mirror": false,
+      "label": {
+        "dx": 0,
+        "dy": 0
+      }
+    },
+    {
+      "id": "R2",
+      "type": "resistor",
+      "x": 480,
+      "y": 640,
+      "ref": "R_2",
+      "value": "24 kΩ",
+      "rotation": 90,
+      "mirror": false,
+      "label": {
+        "dx": 0,
+        "dy": 0
+      }
+    },
+    {
+      "id": "g2",
+      "type": "ground",
+      "x": 480,
+      "y": 800,
+      "ref": "G",
+      "value": "",
+      "rotation": 0,
+      "mirror": false,
+      "label": {
+        "dx": 0,
+        "dy": 0
+      }
+    },
+    {
+      "id": "R3",
+      "type": "resistor",
+      "x": 720,
+      "y": 180,
+      "ref": "R_3",
+      "value": "8.2 kΩ",
+      "rotation": 90,
+      "mirror": false,
+      "label": {
+        "dx": 0,
+        "dy": 0
+      }
+    },
+    {
+      "id": "R4",
+      "type": "resistor",
+      "x": 720,
+      "y": 520,
+      "ref": "R_4",
+      "value": "0.82 kΩ",
+      "rotation": 90,
+      "mirror": false,
+      "label": {
+        "dx": 0,
+        "dy": 0
+      }
+    },
+    {
+      "id": "R5",
+      "type": "resistor",
+      "x": 720,
+      "y": 700,
+      "ref": "R_5",
+      "value": "3.3 kΩ",
+      "rotation": 90,
+      "mirror": false,
+      "label": {
+        "dx": 0,
+        "dy": 0
+      }
+    },
+    {
+      "id": "g5",
+      "type": "ground",
+      "x": 720,
+      "y": 800,
+      "ref": "G",
+      "value": "",
+      "rotation": 0,
+      "mirror": false,
+      "label": {
+        "dx": 0,
+        "dy": 0
+      }
+    },
+    {
+      "id": "CB",
+      "type": "polarized",
+      "x": 940,
+      "y": 700,
+      "ref": "C_{B}",
+      "value": "100 μF",
+      "rotation": 90,
+      "mirror": false,
+      "label": {
+        "dx": 0,
+        "dy": 0
+      }
+    },
+    {
+      "id": "gcb",
+      "type": "ground",
+      "x": 940,
+      "y": 800,
+      "ref": "G",
+      "value": "",
+      "rotation": 0,
+      "mirror": false,
+      "label": {
+        "dx": 0,
+        "dy": 0
+      }
+    },
+    {
+      "id": "CIN",
+      "type": "polarized",
+      "x": 300,
+      "y": 380,
+      "ref": "C_{IN}",
+      "value": "10 μF",
+      "rotation": 180,
+      "mirror": false,
+      "label": {
+        "dx": 0,
+        "dy": 0
+      }
+    },
+    {
+      "id": "VIN",
+      "type": "acvoltage",
+      "x": 120,
+      "y": 520,
+      "ref": "v_{in}",
+      "value": "200 mV",
+      "rotation": 0,
+      "mirror": false,
+      "label": {
+        "dx": 0,
+        "dy": 0
+      }
+    },
+    {
+      "id": "gin",
+      "type": "ground",
+      "x": 120,
+      "y": 800,
+      "ref": "G",
+      "value": "",
+      "rotation": 0,
+      "mirror": false,
+      "label": {
+        "dx": 0,
+        "dy": 0
+      }
+    },
+    {
+      "id": "nc",
+      "type": "netlabel",
+      "x": 850,
+      "y": 280,
+      "ref": "Nnc",
+      "value": "VC",
+      "rotation": 0,
+      "mirror": false,
+      "label": {
+        "dx": 0,
+        "dy": 0
+      }
+    },
+    {
+      "id": "nb",
+      "type": "netlabel",
+      "x": 560,
+      "y": 380,
+      "ref": "Nnb",
+      "value": "VB",
+      "rotation": 0,
+      "mirror": false,
+      "label": {
+        "dx": 0,
+        "dy": 0
+      }
+    },
+    {
+      "id": "ne",
+      "type": "netlabel",
+      "x": 840,
+      "y": 440,
+      "ref": "Nne",
+      "value": "VE",
+      "rotation": 0,
+      "mirror": false,
+      "label": {
+        "dx": 0,
+        "dy": 0
+      }
+    },
+    {
+      "id": "ni",
+      "type": "netlabel",
+      "x": 160,
+      "y": 380,
+      "ref": "Nni",
+      "value": "VIN",
+      "rotation": 0,
+      "mirror": false,
+      "label": {
+        "dx": 0,
+        "dy": 0
+      }
+    }
+  ],
+  "junctions": [
+    {
+      "id": "supply",
+      "x": 720,
+      "y": 100
+    },
+    {
+      "id": "base",
+      "x": 480,
+      "y": 380
+    },
+    {
+      "id": "collector",
+      "x": 720,
+      "y": 280
+    },
+    {
+      "id": "emitter",
+      "x": 720,
+      "y": 440
+    },
+    {
+      "id": "bypass",
+      "x": 720,
+      "y": 600
+    }
+  ],
+  "wires": [
+    {
+      "id": "w1",
+      "a": {
+        "c": "VCC",
+        "p": 0
+      },
+      "b": {
+        "j": "supply"
+      },
+      "vias": [
+        {
+          "x": 1080,
+          "y": 100
+        }
+      ]
+    },
+    {
+      "id": "w2",
+      "a": {
+        "c": "VCC",
+        "p": 1
+      },
+      "b": {
+        "c": "gvcc",
+        "p": 0
+      },
+      "vias": []
+    },
+    {
+      "id": "w3",
+      "a": {
+        "j": "supply"
+      },
+      "b": {
+        "c": "R1",
+        "p": 0
+      },
+      "vias": [
+        {
+          "x": 480,
+          "y": 100
+        }
+      ]
+    },
+    {
+      "id": "w4",
+      "a": {
+        "c": "R1",
+        "p": 1
+      },
+      "b": {
+        "j": "base"
+      },
+      "vias": []
+    },
+    {
+      "id": "w5",
+      "a": {
+        "j": "base"
+      },
+      "b": {
+        "c": "R2",
+        "p": 0
+      },
+      "vias": []
+    },
+    {
+      "id": "w6",
+      "a": {
+        "c": "R2",
+        "p": 1
+      },
+      "b": {
+        "c": "g2",
+        "p": 0
+      },
+      "vias": []
+    },
+    {
+      "id": "w7",
+      "a": {
+        "j": "base"
+      },
+      "b": {
+        "c": "Q1",
+        "p": 0
+      },
+      "vias": []
+    },
+    {
+      "id": "w8",
+      "a": {
+        "j": "supply"
+      },
+      "b": {
+        "c": "R3",
+        "p": 0
+      },
+      "vias": []
+    },
+    {
+      "id": "w9",
+      "a": {
+        "c": "R3",
+        "p": 1
+      },
+      "b": {
+        "j": "collector"
+      },
+      "vias": []
+    },
+    {
+      "id": "w10",
+      "a": {
+        "j": "collector"
+      },
+      "b": {
+        "c": "Q1",
+        "p": 1
+      },
+      "vias": []
+    },
+    {
+      "id": "w11",
+      "a": {
+        "c": "Q1",
+        "p": 2
+      },
+      "b": {
+        "j": "emitter"
+      },
+      "vias": []
+    },
+    {
+      "id": "w12",
+      "a": {
+        "j": "emitter"
+      },
+      "b": {
+        "c": "R4",
+        "p": 0
+      },
+      "vias": []
+    },
+    {
+      "id": "w13",
+      "a": {
+        "c": "R4",
+        "p": 1
+      },
+      "b": {
+        "j": "bypass"
+      },
+      "vias": []
+    },
+    {
+      "id": "w14",
+      "a": {
+        "j": "bypass"
+      },
+      "b": {
+        "c": "R5",
+        "p": 0
+      },
+      "vias": []
+    },
+    {
+      "id": "w15",
+      "a": {
+        "c": "R5",
+        "p": 1
+      },
+      "b": {
+        "c": "g5",
+        "p": 0
+      },
+      "vias": []
+    },
+    {
+      "id": "w16",
+      "a": {
+        "j": "bypass"
+      },
+      "b": {
+        "c": "CB",
+        "p": 0
+      },
+      "vias": [
+        {
+          "x": 940,
+          "y": 600
+        }
+      ]
+    },
+    {
+      "id": "w17",
+      "a": {
+        "c": "CB",
+        "p": 1
+      },
+      "b": {
+        "c": "gcb",
+        "p": 0
+      },
+      "vias": []
+    },
+    {
+      "id": "w18",
+      "a": {
+        "c": "VIN",
+        "p": 0
+      },
+      "b": {
+        "c": "CIN",
+        "p": 1
+      },
+      "vias": [
+        {
+          "x": 120,
+          "y": 380
+        }
+      ]
+    },
+    {
+      "id": "w19",
+      "a": {
+        "c": "CIN",
+        "p": 0
+      },
+      "b": {
+        "j": "base"
+      },
+      "vias": []
+    },
+    {
+      "id": "w20",
+      "a": {
+        "c": "VIN",
+        "p": 1
+      },
+      "b": {
+        "c": "gin",
+        "p": 0
+      },
+      "vias": []
+    },
+    {
+      "id": "w21",
+      "a": {
+        "c": "nc",
+        "p": 0
+      },
+      "b": {
+        "j": "collector"
+      },
+      "vias": []
+    },
+    {
+      "id": "w22",
+      "a": {
+        "c": "nb",
+        "p": 0
+      },
+      "b": {
+        "j": "base"
+      },
+      "vias": []
+    },
+    {
+      "id": "w23",
+      "a": {
+        "c": "ne",
+        "p": 0
+      },
+      "b": {
+        "j": "emitter"
+      },
+      "vias": []
+    },
+    {
+      "id": "w24",
+      "a": {
+        "c": "ni",
+        "p": 0
+      },
+      "b": {
+        "c": "CIN",
+        "p": 1
+      },
+      "vias": []
+    }
+  ]
+}

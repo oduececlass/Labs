@@ -1,0 +1,106 @@
+WEBVTT
+
+00:00:00.450 --> 00:00:05.463
+Open the CE lab and use the 2N3904 common-emitter circuit.
+
+00:00:05.663 --> 00:00:12.090
+This teaching example uses forty-seven and twenty-four kilo-ohms in the base divider, an eight
+point
+
+00:00:12.090 --> 00:00:15.946
+two kilo-ohm collector resistor, and a plus fifteen-volt supply.
+
+00:00:16.146 --> 00:00:18.855
+Use your own selected values for the assignment.
+
+00:00:19.755 --> 00:00:26.582
+Use a ten microfarad input coupling capacitor, an eight hundred twenty-ohm R4, a three point
+three
+
+00:00:26.582 --> 00:00:31.702
+kilo-ohm R5, and a one hundred microfarad bypass capacitor for this example.
+
+00:00:31.902 --> 00:00:34.206
+Connect the input through CIN to the base.
+
+00:00:34.406 --> 00:00:36.518
+Measure VIN before that capacitor.
+
+00:00:37.418 --> 00:00:40.511
+Connect the bypass capacitor across R5 only.
+
+00:00:40.711 --> 00:00:44.594
+R4 remains unbypassed and helps control the signal gain.
+
+00:00:44.794 --> 00:00:51.265
+On a physical build, check transistor pinout and capacitor polarity using the actual component
+
+00:00:51.265 --> 00:00:51.727
+documentation.
+
+00:00:51.927 --> 00:00:55.149
+Then check the breadboard against the schematic before power on.
+
+00:00:56.049 --> 00:00:59.441
+Open the DC check with the input signal disabled.
+
+00:00:59.641 --> 00:01:03.715
+Record the base, emitter, and collector voltages and collector current.
+
+00:01:03.915 --> 00:01:09.163
+A useful initial active-region check is collector above base, and base above emitter.
+
+00:01:09.363 --> 00:01:14.078
+Also consider whether the collector has enough room for the intended output swing.
+
+00:01:14.978 --> 00:01:21.242
+This captured example uses a two hundred millivolt peak sine input at one kilohertz, with zero
+
+00:01:21.242 --> 00:01:21.634
+offset.
+
+00:01:21.834 --> 00:01:24.245
+That is zero point four volts peak-to-peak.
+
+00:01:24.445 --> 00:01:28.306
+Set CH1 to VIN and CH2 to VC, the collector.
+
+00:01:28.506 --> 00:01:31.215
+Both references connect to zero-volt ground.
+
+00:01:32.115 --> 00:01:34.697
+Press Run and read the numerical measurements.
+
+00:01:34.897 --> 00:01:40.967
+The capture shows about zero point four volts peak-to-peak in and three point eight four out,
+giving
+
+00:01:40.967 --> 00:01:43.110
+about minus nine point six gain.
+
+00:01:43.310 --> 00:01:47.961
+A smooth-looking trace alone does not prove active operation throughout the cycle.
+
+00:01:48.861 --> 00:01:54.394
+If the output clips, or the collector falls below the base during part of the cycle, reduce the
+
+00:01:54.394 --> 00:01:55.623
+input and check again.
+
+00:01:55.823 --> 00:01:59.578
+One hundred millivolts peak is a useful smaller-signal trial.
+
+00:01:59.778 --> 00:02:04.279
+Report the limit you observe instead of forcing the four-volt peak-to-peak target.
+
+00:02:05.179 --> 00:02:08.081
+Repeat at ten kilohertz with the same input first.
+
+00:02:08.281 --> 00:02:12.910
+Record both channel amplitudes, signed gain, and the actual input setting.
+
+00:02:13.110 --> 00:02:16.737
+Save the circuit, your breadboard image, and labeled waveforms.
+
+00:02:16.937 --> 00:02:21.182
+Download the CE report and submit it separately from the CS report.

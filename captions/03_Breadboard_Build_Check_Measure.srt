@@ -1,0 +1,144 @@
+1
+00:00:00,450 --> 00:00:05,442
+Finish wiring your schematic, then choose Breadboard, or Build my breadboard in the lab.
+
+2
+00:00:05,642 --> 00:00:08,309
+Your parts are available for you to place and connect.
+
+3
+00:00:08,509 --> 00:00:10,045
+Keep Power off while building.
+
+4
+00:00:10,245 --> 00:00:14,149
+The completed board shown here is a reference for the final arrangement.
+
+5
+00:00:15,049 --> 00:00:18,825
+In Parts, choose This circuit to see components matching your schematic.
+
+6
+00:00:19,025 --> 00:00:21,862
+The wider Parts kit contains extra components.
+
+7
+00:00:22,062 --> 00:00:24,153
+Choose a part and place it on the board.
+
+8
+00:00:24,353 --> 00:00:28,918
+Use the schematic values and references to keep the two versions consistent.
+
+9
+00:00:29,818 --> 00:00:34,298
+Breadboard holes in each five-hole terminal strip are electrically connected.
+
+10
+00:00:34,498 --> 00:00:37,293
+The center gap separates the upper and lower strips.
+
+11
+00:00:37,493 --> 00:00:40,479
+Place a resistor across different electrical nodes.
+
+12
+00:00:40,679 --> 00:00:44,285
+If both leads are in the same strip, the resistor is shorted out.
+
+13
+00:00:45,185 --> 00:00:48,726
+Guide me identifies the next component and its target holes.
+
+14
+00:00:48,926 --> 00:00:52,958
+Read the explanation, find the matching part, and place it yourself.
+
+15
+00:00:53,158 --> 00:00:55,270
+Show placement previews the location.
+
+16
+00:00:55,470 --> 00:01:00,771
+Do this step performs a placement for you, so record that assistance when your instructor requires
+
+17
+00:01:00,771 --> 00:01:01,102
+it.
+
+18
+00:01:02,002 --> 00:01:06,738
+For the MOSFET build, verify which virtual leads are gate, drain, and source.
+
+19
+00:01:06,938 --> 00:01:15,066
+A real ZVN3310F uses an adapter, so trace its actual header mapping before wiring hardware.
+
+20
+00:01:15,266 --> 00:01:19,725
+Do not assume the generic virtual package has the same physical lead order.
+
+21
+00:01:20,625 --> 00:01:23,334
+Use Jumper wire to connect the required holes.
+
+22
+00:01:23,534 --> 00:01:27,993
+Work one schematic node at a time, rather than copying a wire color alone.
+
+23
+00:01:28,193 --> 00:01:34,626
+For CS, connect the positive and negative supplies correctly and keep zero-volt ground separate
+from
+
+24
+00:01:34,626 --> 00:01:36,342
+the minus fifteen-volt rail.
+
+25
+00:01:37,242 --> 00:01:40,911
+Open Check or Doctor and inspect each reported connection.
+
+26
+00:01:41,111 --> 00:01:45,186
+Correct missing jumpers, wrong holes, and incorrect terminal mappings.
+
+27
+00:01:45,386 --> 00:01:49,525
+The green check shown here means this reference board matches its schematic.
+
+28
+00:01:49,725 --> 00:01:53,458
+It does not prove that the schematic itself meets the lab targets.
+
+29
+00:01:54,358 --> 00:02:00,246
+Connect CH1 to the input and CH2 to the drain for CS, or the collector for CE.
+
+30
+00:02:00,446 --> 00:02:04,499
+Connect both scope grounds and generator common to zero volts.
+
+31
+00:02:04,699 --> 00:02:08,539
+After the wiring check, switch power on and inspect the measurements.
+
+32
+00:02:08,739 --> 00:02:10,830
+Power off before changing connections.
+
+33
+00:02:11,730 --> 00:02:14,546
+Save the circuit project and your progress backup.
+
+34
+00:02:14,746 --> 00:02:19,930
+Capture your own completed breadboard, and record any fault you corrected or help you used.
+
+35
+00:02:20,130 --> 00:02:24,034
+Add the image and notes to the matching CS or CE report.
+
+36
+00:02:24,234 --> 00:02:28,863
+Virtual measurements and physical hardware measurements belong in separate columns.
